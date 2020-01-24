@@ -6,6 +6,13 @@
     display: flex;
     flex-direction: row;
 }
+@mixin after {
+  display: inline-block;
+  width:4rem;
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid  #606060;
+}
 @mixin card-button{
    width: 60%;
   height:auto;
@@ -624,12 +631,16 @@ padding: 10px;
 }
 // next block
 
-.block-facts{
+.block-facts, .block-facts-title{
   @include flex();
   width:90%;
   justify-content:space-around;
   margin-top:2rem;
   flex-wrap:wrap;
+}
+.block-facts-title{
+ width: 100%;
+ margin-top: 1rem;
 }
 .block-facts__1{
   display: flex;
@@ -641,6 +652,9 @@ padding: 10px;
   background-color: #484848;
   transform: rotate(45deg);
   align-items: center;
+}
+.small-squear:hover{
+  background-color: #00a99d;
 }
 .block-facts__number{
   @include number();
@@ -654,26 +668,19 @@ padding: 10px;
   text-align: center;
   width: 20%;
   overflow: hidden;
+  margin-right:1rem;
 }
 
 .title span {
   position: relative;
 }
 .title span:before {
-  display: block;                  
-  width:4rem;                    
-  content: '';                     
-  position: absolute;             
-  border-bottom: 1px solid rgb(36, 34, 34);
+ @include after();
   top:50%;                         
   right: 10px;                   
 }
 .title span:after {
-  display: inline-block;
-  width:4rem;
-  content: '';
-  position: absolute;
-  border-bottom: 1px solid  rgb(36, 34, 34);
+ @include after();
   top:50%;
 }
 
@@ -687,6 +694,7 @@ padding: 10px;
 }
 .block-facts__text{
   @include text();
+  text-align: center;
 }
 .block__row{
   width: 100%;
@@ -751,15 +759,60 @@ font-family: ElegantIcons;
 }
 .members, .row-4{
   @include flex();
-  padding-top: 8rem;
-  width: 85%;
+  padding-top: 6rem;
+  width: 77%;
   margin: 0 auto;
   margin-bottom: 4rem;
+  justify-content: space-around;
 }
 
-.card-img-top{
-  height: 14rem;
-  background-color: #484848 ;
+
+.card-top{
+  height: 13rem;
+  background-color: #606060;
+  @include flex();
+  padding-top: 20%;
+}
+.card-top:hover{
+  background-color: #00a99d;
+}
+.card-top__content:hover{
+  opacity: 1;
+}
+.card-top__content{
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  list-style-type: none;
+    opacity: 0;
+}
+.content-rhombus{ 
+width: 2rem;
+  height: 2rem;
+  background-color: #e4e4e4;
+  transform: rotate(45deg);
+  padding: .5rem;
+}
+.rhombus__bacground{
+  background-color:#383838;
+}
+.content-squear{ 
+width: 18px;
+  height: 17px;
+  border: 1px solid #00a99d;
+  transform: rotate(316deg);
+
+}
+.content-quection::after{
+  font-family: FontAwesome;
+  content: "\f128"
+}
+.content-quection{
+ color: #00a99d;
+ font-size: 65%;
+ margin: 0 auto;
+ padding-left: 20%;
 }
 .card{
   margin-left:1rem;
