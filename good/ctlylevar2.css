@@ -1294,7 +1294,7 @@ section {
       height: auto;
     }
     .internal-1, .internal-4{
-      padding-left: 15px;
+      padding-left: 10px;
     }
     .footer-text__item {
       font-size: .6rem;
@@ -1340,7 +1340,7 @@ section {
     font-size:12px;
   }
   .internal-1, .internal-4 {
-    padding-left: 15px;
+    padding-left: 10px;
   }
   .header-secondline{
     height: auto;
