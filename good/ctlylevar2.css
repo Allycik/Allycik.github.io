@@ -1162,6 +1162,9 @@ section {
     .header-secondline{
       height: auto;
     }
+    .internal-1, .internal-4{
+      padding-left: 15px;
+    }
     .text__item:nth-child(1) {
       font-size: 1.5rem;
       padding-top: 2rem;
@@ -1236,6 +1239,9 @@ section {
     .horizontal{
       padding-bottom: 3%;
     }
+    .internal-1, .internal-4 {
+      padding-left: 15px;
+    }
     .text-9, .text-10, .text-11, .text-12, .text-6, .text-8, .good-inc-good-choice, .unit h2 {
       font-size:16px;
     }
@@ -1287,6 +1293,9 @@ section {
     .header-secondline{
       height: auto;
     }
+    .internal-1, .internal-4{
+      padding-left: 15px;
+    }
     .footer-text__item {
       font-size: .6rem;
     }
@@ -1329,6 +1338,9 @@ section {
 
   .text-6, .text-8, .good-inc-good-choice, .unit h2 {
     font-size:12px;
+  }
+  .internal-1, .internal-4 {
+    padding-left: 15px;
   }
   .header-secondline{
     height: auto;
