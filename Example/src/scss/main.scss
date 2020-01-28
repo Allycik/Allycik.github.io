@@ -1317,16 +1317,16 @@ font-family: Raleway;
 .active-w{
   display: flex;
   width: 100%;
+  height: -webkit-fill-available;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.w-50{
-width: 63%!important;
-    margin: 0 auto;
-    padding-top: 2.3%;
-}
+// .w-50{
+//     margin: 0 auto;
+    // padding-top: 1%;
+
 .block-powerful__first, .block-powerful__second{
   width: 90%;
 }
@@ -1392,9 +1392,9 @@ width: 63%!important;
 .block-powerful__row{
   width: 25%;
 }
-.w-50{
-  padding-top: 1%;
-}
+// .w-50{
+//   padding-top: 1%;
+// }
 .block-assets__content {
   margin-top: 10%;
 }
@@ -1430,9 +1430,9 @@ width: 63%!important;
     width: 14px;
     height: 14px;
   }
-  .w-50{
-    padding-top: 3%;
-  }
+  // .w-50{
+  //   padding-top: 3%;
+  // }
   .assets__icon {
     font-size: 60%;
   }
@@ -1486,9 +1486,6 @@ width: 63%!important;
   width: 13px;
   height: 12px;
 }
-// .block-powerful__row {
-//   width: 20%;
-// }
 }
 
 @media(max-width:#{$mobile_sm}){
@@ -1500,9 +1497,9 @@ width: 63%!important;
   width: 10px;
   height: 10px;
 }
-.w-50{
-  padding-top: 6%;
-}
+// .w-50{
+//   padding-top: 6%;
+// }
 .shape {
   width: 8px;
   height: 8px;
