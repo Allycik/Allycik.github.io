@@ -21,7 +21,7 @@
     top: -5%;
     display: flex;
     font-family: Raleway;
-    font-size: .9rem;
+    font-size: .7rem;
     font-weight: 800;
     line-height: 1.54;
     letter-spacing: normal;
@@ -1083,16 +1083,73 @@ font-family: Raleway;
   text-align: center;
   color: rgb(170, 170, 170);
 }
-.unique-picter__foto, .footer-picter__foto{
-  width:100%;
-}
+
 .block-powerful__first, .block-powerful__second{
   flex-direction: row;
   display: flex;
   width: 50%;
     justify-content: space-around;
 }
-
+.unique-block{
+  width: 100%;
+  height: 10rem;
+  background-color: #8c8c8c ;
+  @include flex();
+}
+.unique-item{
+  width: 58%;
+  height: 5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
+.icon-heart::before {
+  font-family: FontAwesome;
+    content: "\f004";
+}
+.icon-heart{
+  color: #00a99d;
+  font-size: 1.5rem;
+}
+.unique-item__text{
+font-family: Raleway;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  color: 383838;
+}
+.unique-item__btn{
+  width: 20%;
+  height: 6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 15%;
+}
+.startap-block{
+  width: 100%;
+  height: 15rem;
+  background-color:#383838 ;
+}
+.startap-block__logo{
+  width: 30%;
+  height: 7rem;
+  margin: 0 auto;
+  display: flex;
+    justify-content: center;
+}
+.startap-logo__foto{
+  background-color:#383838 ;
+ 
+ 
+}
 @media(max-width:#{$desktop}) {
   .block-assets__blocks{
     width:16.4%;
@@ -1323,10 +1380,6 @@ font-family: Raleway;
     flex-direction: row;
     justify-content: space-around;
 }
-// .w-50{
-//     margin: 0 auto;
-    // padding-top: 1%;
-
 .block-powerful__first, .block-powerful__second{
   width: 90%;
 }
@@ -1392,9 +1445,6 @@ font-family: Raleway;
 .block-powerful__row{
   width: 25%;
 }
-// .w-50{
-//   padding-top: 1%;
-// }
 .block-assets__content {
   margin-top: 10%;
 }
@@ -1430,9 +1480,6 @@ font-family: Raleway;
     width: 14px;
     height: 14px;
   }
-  // .w-50{
-  //   padding-top: 3%;
-  // }
   .assets__icon {
     font-size: 60%;
   }
@@ -1497,9 +1544,6 @@ font-family: Raleway;
   width: 10px;
   height: 10px;
 }
-// .w-50{
-//   padding-top: 6%;
-// }
 .shape {
   width: 8px;
   height: 8px;
