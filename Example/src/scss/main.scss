@@ -1146,9 +1146,44 @@ font-family: Raleway;
     justify-content: center;
 }
 .startap-logo__foto{
-  background-color:#383838 ;
- 
- 
+  width: 30%;
+  height: 2rem;
+  margin-top: 2rem;
+}
+.startap-block__icon{
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  float: left;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+.foto{
+  width: 100%;
+  height: 30rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+  width: 90%;
+}
+.row-footer{
+  justify-content: flex-start;
+}
+textarea.form-control, .btn-success {
+  margin-left:1rem;
+}
+#contactForm{
+position: absolute;
+margin-top: -90%;
+width: 65%;
 }
 @media(max-width:#{$desktop}) {
   .block-assets__blocks{
@@ -1285,6 +1320,10 @@ font-family: Raleway;
   display: flex;
   
 }
+.unique-item__btn {
+  width: 30%;
+  margin-left: 10%;
+}
 }
 
  @media(max-width:#{$tablet_sm}){
@@ -1383,7 +1422,17 @@ font-family: Raleway;
 .block-powerful__first, .block-powerful__second{
   width: 90%;
 }
+.unique-item__btn {
+  width: 30%;
+  margin-left: 10%;
 }
+.unique-item__text {
+  font-size: 1.4rem;
+}
+.unique-block {
+  height: 8rem;
+}
+ }
 @media(max-width:#{$mobile}) {
   html{
     font-size: 70%;
@@ -1470,6 +1519,12 @@ font-family: Raleway;
 .block-powerful__text {
   font-size: .6rem;
 }
+.unique-item__text {
+  font-size: 1.2rem;
+}
+.unique-item {
+  width: 65%;
+}
 }
 
 @media(max-width:#{$mobile_md}){
@@ -1532,6 +1587,9 @@ font-family: Raleway;
 .content-squear {
   width: 13px;
   height: 12px;
+}
+.unique-item__text {
+  font-size: 1rem;
 }
 }
 
@@ -1615,6 +1673,10 @@ font-family: Raleway;
 }
 .card-top {
   height: 11rem;
+}
+.unique-item__btn {
+  width: 40%;
+  margin-left: -5%;
 }
 }
  
