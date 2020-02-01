@@ -1120,6 +1120,9 @@ section {
    .next-col{
        display: none;
    }
+   div {
+    margin: 0 auto;
+   }
    .navbar-nav{
      flex-direction: row;
    }
@@ -1197,6 +1200,9 @@ section {
   .unit__item{
     top:0;
   }
+    .unit h2{
+      margin-top: 1rem;
+  }
          .link{
            display: none;
          }
@@ -1231,6 +1237,17 @@ section {
      padding-left: 0;
      margin: 0 auto;
   }
+  .internal-10__april{
+    padding-top: 4px;
+  }
+  .internal-10__heart {
+    padding-top: 9px;
+    padding-right: 45px;
+  }
+  .text-15, .text-17{
+    padding-left: 20px;
+    padding-top: 15px;
+  }
 }
   @media (max-width: 660px){
     .header-secondline{
@@ -1244,8 +1261,9 @@ section {
     }
     .text-9, .text-10, .text-11, .text-12, .text-6, .text-8, .good-inc-good-choice, .unit h2 {
       font-size:16px;
+      margin-bottom: 1rem;
     }
-  
+
     .text__item:nth-child(1) {
      padding-top:10px;
      padding-left:26px;
