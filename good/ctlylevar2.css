@@ -1084,6 +1084,7 @@ justify-content: end;
 
   .footer-text__line{
   font-family: Arial;
+  width: 65%;
   font-size: 11px;
   line-height: 1.91;
   letter-spacing: normal;
